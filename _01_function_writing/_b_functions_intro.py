@@ -51,3 +51,11 @@ class FunctionTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+def multiply(num1, num2):
+    answer = num1*num2
+    return answer
+
+def str_cat(var1, var2, var3):
+    message=  var1 + " "+ var2 +" "+ var3
+    return message
