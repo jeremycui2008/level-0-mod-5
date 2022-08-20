@@ -59,3 +59,12 @@ def multiply(num1, num2):
 def str_cat(var1, var2, var3):
     message=  var1 + " "+ var2 +" "+ var3
     return message
+
+def greater_than(num1, num2):
+    if num1<num2:
+        return True
+    else:
+        return False
+
+def get_random_number(low, high):
+    return random.randint(low,high)

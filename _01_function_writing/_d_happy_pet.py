@@ -8,6 +8,9 @@ if __name__ == '__main__':
     # TODO)
     #   1. Ask the user to enter the type of pet they want (give them a few
     #      choices).
+    messagebox.showinfo(None, prompt='which pet do you want (cat,dog,fish)')
+
+
     #   2. Use a loop (maybe a while loop?) to keep offering interactions with
     #      their pet until the desired pet happiness level has been reached.
     #      Examples of activities are: Feed, Walk, Play
