@@ -68,3 +68,26 @@ def greater_than(num1, num2):
 
 def get_random_number(low, high):
     return random.randint(low,high)
+
+def is_vegetable(veggie=''):
+    if veggie=='celery':
+        return True
+    elif veggie=='apple':
+        return False
+    elif veggie=='tomato':
+        return False
+    elif veggie=='mushroom':
+        return False
+    else:
+        return False
+
+def make_appointment( preferred_time_of_day=''):
+
+    if preferred_time_of_day=='morning' or preferred_time_of_day=='':
+        return '8 am'
+    elif preferred_time_of_day=='afternoon':
+        return '1 pm'
+    elif preferred_time_of_day=='evening':
+        return '5 pm'
+    else:
+        return 'error'
