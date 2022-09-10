@@ -3,7 +3,7 @@ Write methods to represent the activities that will make the user's pet happy.
 """
 from tkinter import messagebox, simpledialog, Tk
 
-
+#:)
 def walk(cyanide):
     if cyanide=='fish':
         messagebox.showinfo(None, message='you killed it')
