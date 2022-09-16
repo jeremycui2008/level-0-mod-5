@@ -1,10 +1,45 @@
 """
 Have the turtle draw a row of houses.
 """
+import turtle
 from tkinter import messagebox, simpledialog, Tk
+def pointyroof(height):
+    for i in range(2):
+        bill.left(60)
+        bill.forward(height/1.73)
+    for ix in range(2):
+        bill.left(90)
+        bill.forward(height)
 
+def house(height):
+    for i in range(5):
+        bill.forward(height)
+        bill.left(90)
+    bill.forward(height)
 
-if __name__ == '__main__':
+if __name__  ==  '__main__':
+    bill=turtle.Turtle()
+    bill.penup()
+    bill.goto(-470,-390)
+    bill.pendown()
+    bill.speed(3)
+    placeholder=simpledialog.askstring(None, prompt='do you want large house, medium house or little house?')
+    if placeholder=='small':
+        height=60
+        house(height)
+        pointyroof(height)
+    if placeholder=='medium':
+        height=120
+        house(height)
+        pointyroof(height)
+    if placeholder=='large':
+        height=250
+        house(height)
+        pointyroof(height)
+    bill.forward(height)
+    bill.pencolor('green')
+    bill.forward(130)
+
     # TODO)
     #   1) Move the turtle to the left side of the window near the bottom.
     #   2) Draw ONE flat-topped house with height=100 and green grass after it.
