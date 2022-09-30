@@ -35,20 +35,20 @@ if __name__  ==  '__main__':
             pointyroof(height)
             bill.forward(height)
             bill.pencolor('green')
-            bill.forward(130)
+            bill.forward(30)
         if placeholder=='medium':
             height=120
             house(height)
             pointyroof(height)
             bill.forward(height)
             bill.pencolor('green')
-            bill.forward(130)
+            bill.forward(65)
         if placeholder=='large':
             height=250
             house(height)
             bill.forward(height)
             bill.pencolor('green')
-            bill.forward(130)
+            bill.forward(125)
 
     # TODO)
     #   1) Move the turtle to the left side of the window near the bottom.
