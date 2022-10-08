@@ -27,4 +27,25 @@ if __name__ == '__main__':
             print(str(l) +'is an even number')
         else:
             print(str(l)+'is an odd number')
+    for t in range (112):
+        t=t*7
+        print(t)
+    year=2022
+    for guh in range(14):
+        if guh==1:
+            year-=13
+            print("In " + str(year) + " I was " + str(guh) + " years old")
+        if guh>1:
+            year+=1
+            print("In " + str(year) + " I was " + str(guh) + " years old")
+    for gu in range(3):
+
+        for g in range(3):
+
+            print(str(gu) + ''+  str(g))
+    for xy in range(3):
+        for xyz in range(3):
+            w = xy+xy+xy+xyz+1
+            print(w)
+
     pass
