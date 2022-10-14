@@ -44,8 +44,21 @@ if __name__ == '__main__':
 
             print(str(gu) + ''+  str(g))
     for xy in range(3):
+        if xy>=1:
+            print('')
         for xyz in range(3):
             w = xy+xy+xy+xyz+1
-            print(w)
-
+            print(w, end=" ")
+    print('')
+    for die in range(10):
+        if die>=1:
+            print('')
+        for dies in range(10):
+            dice = die+die+die+die+die+die+die+die+die+die+dies+1
+            print(dice, end=" ")
+    print('')
+    bruh=''
+    for kill in range(6):
+        bruh+='*'
+        print(bruh)
     pass
